@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://gana.work.gd/api/:path*"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://gana.work.gd/admin/:path*"
+    },
+    {
+      "source": "/media/:path*",
+      "destination": "https://gana.work.gd/media/:path*"
+    }
+  ]
+}
