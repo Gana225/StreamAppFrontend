@@ -10,7 +10,7 @@ export default defineConfig({
     // Add the proxy configuration block here
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000', // Points directly to your running Django server port
+        target: 'https://gana.work.gd', // Points directly to your running Django server port
         changeOrigin: true,
         secure: false,
       }
