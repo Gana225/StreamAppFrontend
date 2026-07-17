@@ -11,6 +11,14 @@
     {
       "source": "/media/:path*",
       "destination": "https://gana.work.gd/media/:path*"
+    },
+    {
+      "source": "/static/:path*",
+      "destination": "https://gana.work.gd/static/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
