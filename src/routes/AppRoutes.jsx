@@ -19,7 +19,7 @@ export default function AppRoutes() {
   return (
     <Routes>
       {/* Main layout wrapper containing descendant paths */}
-      <Route path="*" element={<MainLayout />}>
+        <Route path="*" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="auth" element={<Auth onAuthSuccess={handleAuthSuccess}/>} />
         <Route path="search" element={<SearchPage />} />
